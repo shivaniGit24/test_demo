@@ -37,3 +37,5 @@ Things you need to do in local
 16. local and remote repo are linked now
 
 17.git push origin master  [local file pushed to remote repo]
+
+18.git add . insert everything and git add file [insert only that file]
