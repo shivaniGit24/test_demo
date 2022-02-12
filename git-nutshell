@@ -1,0 +1,39 @@
+How to use Git in nutshell
+
+Things you need to do in local
+
+--- follow below the steps below:
+
+1. Install Git according to your OS that may be linux , windows or any other.
+
+2. Check the version og git using cmd git --version
+
+3. git --help  or git help config  (manual page of git open up)
+
+4. create local dir ---mkdir test-git
+
+5. cd test-git
+
+6. git init (to initialize git)
+
+7. create new file in this dir  by using cmd---touch filename and put the things you want in the file in order to push
+
+8. git status ---to check the current branch
+
+9. git add filename
+
+10. git commit -m "new file added"  ----commit cmd is applied on all the abovce directories.
+
+11. we need to link our github to our github account that is made online
+
+12.cmd for above ---git config --global user.username [yourusernameofgithubaccount]
+
+13. Open your githubAccount and create repository there----[remote repo]
+
+14.now there is a linked popped up there after creating repo on github account go there and linked that repo with your local as below
+
+15. git remote add origin [http link from github]
+
+16. local and remote repo are linked now
+
+17.git push origin master  [local file pushed to remote repo]
